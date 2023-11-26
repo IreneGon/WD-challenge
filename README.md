@@ -2,7 +2,7 @@
 Group: Kai & Irene
 HTML page without CSS
 white_check_mark: Rules (Must Have):
-Must use appropriate HTML tags for your content (don’t use <div> for everything)
+Must use appropriate HTML tags for your content (don’t use '<div>' for everything)
 Must contain at least one list
 Must contain at least a few images
 Must contain a link to an external page (bonus points if you get the page to open in a new tab)
