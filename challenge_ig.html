@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Berlin Restaurants</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    </body>
+    <header>
+        <h1>Discovering Charlottenburg - Berlin</h1>
+        <p> One of my favourite areas to eat out in Berlin is Charlottenburg. <br> This elegant and cosmopolitan area is
+            full of excellent choices for all tastes and flavours.</p>
+    </header>
+
+    <section class="banner">
+        <img src="img/kant.jpg" alt="welcome banner" width="350" height="300"> <br>
+        </section>
+
+    <h2><span>#My picks</span></h2>
+
+    <main>
+
+        <nav class="Restaurants">
+            <ol>
+                <li class="French"><a href="#">French</a></li>
+                <li class="Asian"><a href="#">Vietnamese</a></li>
+                <li class="Asian"><a href="#">Japanese</a></li>
+                <li class="Asian"><a href="#">Thai</a></li>
+            </ol>
+        </nav>
+
+        <h3>French</h3>
+        <p>
+            A Michelin-listed "bistro" that provides excellent ambient, staff, food, everything! <a
+                href="https://lamazere.de/" target="_blank" rel="noopener noreferrer">Lamazere</a>
+        </p>
+
+        <h3>Vietnamese</h3>
+        <p>
+            If you are more Eastern-bound, Kantstraße offers excellent Vietnamese restaurants such as <a
+                href="https://madame-ngo.de/" target="_blank" rel="noopener noreferrer">Madame Ngo</a>
+        </p>
+        <!-- target blank opens the link in another tab and rel attribute specifies relationship type. Noopener is an additional security measure and noreferrer stops sending a header to the the linked page -->
+
+        <h3>Japanese</h3>
+        <p>
+            Another iconic restaurants is <a href="https://kuchi.de/restaurant/kant/" target="_blank"
+                rel="noopener noreferrer">Kuchi</a>,
+            as well as the Michelin awarded <a href="https://893ryotei.de/" target="_blank"
+                rel="noopener noreferrer">Ryotei 893</a>.
+            <br>
+            Do you know who is the owner and chef of these restaurants?
+            Discover his fascinating story <a href="https://www.feinschmecker.de/geniessen/koch-the-duc-ngo"
+                class="button">here</a>
+        </p>
+
+        <h3>Thai</h3>
+        <p>
+            If you want to eat out and learn, this excellent Thai restaurant offers cooking courses too: <a
+                href="https://dao-restaurant.de/" target="_blank" rel="noopener noreferrer">Dao by Meo</a>,
+        </p>
+
+        <section>Favourite Restaurants</section>
+        
+        <h2>What about yours?</h2>
+        <label for="Likes">Tell us where you like eating out in Berlin:</label>
+        <input type="Likes" id="likes" name="likes">
+     
+        <label for="tips">Which restaurant/bistro/bar we cannot miss:</label>
+        <input type="tips" id="tips" name="tips">
+
+        <p>Select neighborhood:</p>
+
+        <input type="radio" name="Bezirk" value="Charlottenburg" id="option 1">
+        <label for="option 1">Charlottenburg</label>
+
+        <input type="radio" name="Bezirk" value="Schöneberg" id="option 2">
+        <label for="option 2">Schöneberg</label>
+
+        <input type="radio" name="Bezirk" value="P´Berg" id="option 2">
+        <label for="option 2">P´Berg</label>
+
+        <input type="radio" name="Bezirk" value="Fxhain" id="option 2">
+        <label for="option 2">Fxhain</label>
+
+        <input type="radio" name="Bezirk" value="Mitte" id="option 3">
+        <label for="option 3">Mitte</label>
+        
+        <h2>Hidden gems</h2>
+
+        <p>Select cuisine:</p>
+        <label for="">South-East Asian Restaurants</label>
+        <input type="text" id="restaurant">
+        <select name="Asian" id="Cuisine">
+            <option value="">Thai</option>
+            <option value="">Vietnamese</option>
+            <option value="">Indonesian</option>
+        </select>
+
+        <label for="">Latin-American Restaurants</label>
+        <input type="text" id="restaurant">
+        <select name="Latin-American" id="Cuisine">
+            <option value="">Mexican</option>
+            <option value="">Argentinian</option>
+            <option value="">Colombian</option>
+        </select>
+
+        <label for=""><South-European></South-European> Restaurants</label>
+        <input type="text" id="restaurant">
+        <select name="South-European" id="Cuisine">
+            <option value="">Spanish</option>
+            <option value="">Greek</option>
+            <option value="">Portuguese</option>
+        </select>
+
+        <br><br>
+
+        <!-- <section>Feedback</section> -->
+
+        <label for="Comments">Other recommendations:</label>
+        <textarea name="Leave your comment" id="comment" cols="20" rows="20" placeholder="Comments"></textarea>
+        <br><br>
+        <input type="submit" value="Submit your comments" id="comments">
+
+        </form>
+
+        <br><br>
+        <img src="img/sav.jpg" alt="welcome banner" width="350" height="200">
+        <footer>
+            See also: <a
+                href="https://www.berlin.de/tourismus/insidertipps/berlin-fuer-foodies/">https://www.berlin.de/tourismus/insidertipps/berlin-fuer-foodies/</a>
+
+        </footer>
