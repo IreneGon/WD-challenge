@@ -1,0 +1,129 @@
+body {
+    font-family: monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffe0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #8fbc8f;
+    color: #ffefd5;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    padding: 3rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    border: 2px solid #333:
+    margin-bottom 10px;
+}
+
+h2 {
+    color: #2e8b57;
+    text-align: center;
+    font-size: 45px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.Restaurants {
+    margin: 20px 0;
+}
+
+
+h3 {
+    color: #008080;
+    text-align: left;
+    font-size: 25px;
+}
+
+.Restaurants ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Restaurants li {
+    padding: 10px;
+    border: 2px solid #008080;
+    background-color: rgb(188, 214, 92);
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    }
+   
+.Restaurants li a {
+    color: whitesmoke;
+    text-decoration: wavy;
+    font-weight: 400;
+}
+
+.Restaurants li:hover {
+    background-color: #4CAF50;
+}
+
+#Cuisine{
+    color: whitesmoke;
+    background-color: #b68c8c ;
+    font-weight: bold;
+    font-family: monospace;
+}
+    
+
+main {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#d2b48c;
+}
+
+#comments{
+    background-color:#555;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+footer {
+    background-color:#8fbc8f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 0, 5;
+    }
+}
